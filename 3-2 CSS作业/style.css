@@ -109,14 +109,7 @@ h1 {
     z-index: 2;
 }
 
-#terrarium #school-image {
-	display: flex;
-    margin: 0 auto;
-    max-width: 60%;
-    max-height: 60%;
-    z-index: 2;
-	margin-top: 100px;
-}
+
 
 header {
     position: fixed;
@@ -144,4 +137,13 @@ header nav ul {
     max-height: 30%;
     z-index: 2;
 	margin-top: 10px;
+}
+
+#terrarium #school-image {
+    display: flex;
+    margin: 0 auto;
+    max-width: 10%;
+    max-height: 10%;
+    z-index: 2;
+    margin-top: 100px;
 }
