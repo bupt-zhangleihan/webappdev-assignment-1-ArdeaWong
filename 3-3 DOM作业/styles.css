@@ -1,0 +1,30 @@
+/* Styles for the Shakespearean Sonnet page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C7EDCC; /* 这是若草色的十六进制代码 */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.sonnet-text {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
