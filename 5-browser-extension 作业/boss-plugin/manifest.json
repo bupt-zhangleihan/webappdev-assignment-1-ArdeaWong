@@ -1,0 +1,20 @@
+{
+  "name": "爬取boss数据",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "/html/popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.zhipin.com/*"],
+      "js": ["/js/content/page.js", "/js/content/install.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    "/js/inject/pikazExcel.js",
+    "/js/inject/page.js",
+    "/js/inject/network.js"
+  ]
+}
